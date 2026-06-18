@@ -3,3 +3,10 @@
 
 #include <string>
 #include "Token.hpp"
+
+class lexer {
+
+
+
+};
+
