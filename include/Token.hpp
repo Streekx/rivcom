@@ -1,36 +1,35 @@
-#ifndef TOKEN_HPP
-#define TOKEN_HPP
+#pragma once 
 
 #include <string>
 
 enum class TokenType {
 
-   RIVEN,
-   MAIN,
+RIVEN,
+MAIN,
 
-   LEFT_PAREN,
-  RIGHT_PAREN,
+LEFT_PAREN,
+RIGHT_PAREN,
 
-  LEFT_BRACE,
+LEFT_BRACE,
 RIGHT_BRACE,
 
 IMPR,
-OUTPUT_OP,
+OUTPUT,
+
 STRING,
 SEMICOLON,
+
 EOF,
 
-
 };
-
 
 struct TokenType {
-TokenType Token;
 
-std::string Text;
-
-
+TokenType type;
+std::string text;
 
 };
+
+
 
 #endif
