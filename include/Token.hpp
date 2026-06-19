@@ -20,10 +20,11 @@ STRING,
 SEMICOLON,
 
 EOF,
+UNKNOWN,
 
 };
 
-struct TokenType {
+struct Token {
 
 TokenType type;
 std::string text;
@@ -32,4 +33,3 @@ std::string text;
 
 
 
-#endif
