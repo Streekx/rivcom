@@ -8,7 +8,7 @@ public:
 Lexer(std::string source);
 char current();
 void Arvance();
-
+lexer.NextToken();
 
 private: 
 std::strint source;
