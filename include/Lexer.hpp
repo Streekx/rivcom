@@ -7,7 +7,7 @@ class lexer {
 public:
 Lexer(std::string source);
 char current();
-
+void Arvance();
 
 
 private: 
